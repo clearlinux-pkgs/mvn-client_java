@@ -1,0 +1,5 @@
+PKG_NAME := mvn-client_java
+URL = https://github.com/prometheus/client_java/archive/parent-0.3.0.tar.gz
+ARCHIVES = https://repo1.maven.org/maven2/io/prometheus/parent/0.3.0/parent-0.3.0.pom : https://repo1.maven.org/maven2/io/prometheus/simpleclient/0.3.0/simpleclient-0.3.0.jar : https://repo1.maven.org/maven2/io/prometheus/simpleclient/0.3.0/simpleclient-0.3.0.pom : https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.3.0/simpleclient_common-0.3.0.jar : https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.3.0/simpleclient_common-0.3.0.pom : https://repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.3.0/simpleclient_httpserver-0.3.0.jar : https://repo1.maven.org/maven2/io/prometheus/simpleclient_httpserver/0.3.0/simpleclient_httpserver-0.3.0.pom : https://repo1.maven.org/maven2/io/prometheus/simpleclient_pushgateway/0.3.0/simpleclient_pushgateway-0.3.0.jar : https://repo1.maven.org/maven2/io/prometheus/simpleclient_pushgateway/0.3.0/simpleclient_pushgateway-0.3.0.pom :
+
+include ../common/Makefile.common
